@@ -1,5 +1,3 @@
-# gh-copilot-usage
-
 Display your usage of GitHub Copilot premium requests for this month.
 
 ![](./screenshot.png)
