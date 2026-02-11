@@ -1,5 +1,20 @@
 # gh-copilot-usage
 
+Display your usage of GitHub Copilot premium requests for this month.
+
+![](./screenshot.png)
+
+## Features
+
+- Shows a summary of your usage
+- Where we are in the current month
+- A breakdown of usage per-model
+
+The month indicator helps you spread out your usage to max out your plan:
+
+- Usage left of the month indicator? Prompt away! 🤖
+- Usage right of the month indicator? Go touch some grass. 🌿
+
 ## Pre-requisites
 
 - GitHub `gh` CLI
