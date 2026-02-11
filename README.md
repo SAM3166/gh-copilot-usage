@@ -17,7 +17,8 @@ The month indicator helps you spread out your usage to max out your plan:
 
 ## Pre-requisites
 
-- GitHub `gh` CLI
+- [Bun](https://bun.com/)
+- [`gh`](https://cli.github.com/) GitHub CLI
 - Authenticated with a user scope (run it the first time and it will ask you to re-auth if necessary).
 - Configure your `LIMIT` in `usage.ts` to whatever your GitHub Copilot plan is (300 premium requests for Pro).
 
