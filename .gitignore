@@ -5,6 +5,7 @@ node_modules
 out
 dist
 *.tgz
+gh-copilot-usage
 
 # code coverage
 coverage
